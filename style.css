@@ -4,3 +4,19 @@
 .auto_predicted_hide{
   display: none;
 }
+.mydiv{
+  position: absolute;
+  top: 8px;
+  left: 150px;
+  z-index: 10000;
+  border: 1px solid;
+}
+.list_mydiv{
+  display: flex;
+  flex-direction: row;
+  
+}
+.li_mydiv{
+  list-style-type: none;
+  padding:0 20px 0 0 ;
+}
